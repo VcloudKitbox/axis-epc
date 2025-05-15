@@ -20,7 +20,7 @@ const Hero = () => {
         {/* Embla Container */}
         <div className="flex">
           {[One, Edu, Emp, sTeh, Two].map((img, index) => (
-            <div key={index} className="min-w-full h-[90vh] relative">
+            <div key={index} className="min-w-full h-[100vh] relative">
               <Image
                 src={img}
                 alt={`Slide ${index + 1}`}
@@ -34,14 +34,14 @@ const Hero = () => {
       </div>
 
       {/* Overlay Text */}
-      <div className="absolute top-0 left-0 w-full h-[90vh] bg-black/30 flex flex-col justify-center items-center text-white text-center px-4">
+      <div className="absolute top-0 left-0 w-full h-[100vh] bg-black/30 flex flex-col justify-center items-center text-white text-center px-4">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Welcome to</h1>
         <h1 className="text-4xl md:text-5xl font-bold mb-4">AxisEPC</h1>
         <p className="max-w-2xl text-lg mt-5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat.
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
         </p>
       </div>
     </div>
