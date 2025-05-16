@@ -10,7 +10,7 @@ import {portandharbor,
 
 const GetAQuote = () => {
   return (
-    <div className="w-full h-full flex items-center justify-center flex-col bg-gray-100">
+    <div className="w-full h-full flex items-center justify-center flex-col bg-white">
       {/* Get a Quote */}
       <div className="w-full max-w-[1370px] h-full px-4 flex flex-col lg:flex-row mb-30">
         <div className="w-[100%] h-full md:w-[80%] md:ml-20 lg:w-[50%] flex flex-col px-7 pt-[150px]">
@@ -49,7 +49,7 @@ const GetAQuote = () => {
 
         {/* Construction type */}
         <div className="w-full max-w-[1370px] h-full px-4 mt-10 mb-10 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:w-full place-items-center">
-          <div className="w-full h-auto md:flex border border-gray-300 ">
+          <div className="w-full h-auto md:flex border border-gray-100 ">
             <div className="relative w-full h-[34vh] md:w-[200%]">
               <Image
                 src={portandharbor}
@@ -69,7 +69,7 @@ const GetAQuote = () => {
             </div>
           </div>
 
-          <div className="w-full h-auto md:flex border border-gray-300 ">
+          <div className="w-full h-auto md:flex border border-gray-100 ">
             <div className="relative w-full h-[34vh] md:w-[200%]">
               <Image
                 src={offshoreoil}
@@ -88,7 +88,7 @@ const GetAQuote = () => {
               </p>
             </div>
           </div>
-          <div className="w-full h-auto md:flex border border-gray-300 ">
+          <div className="w-full h-auto md:flex border border-gray-100 ">
             <div className="relative w-full h-[34vh] md:w-[200%]">
               <Image
                 src={marinebridges}
@@ -107,7 +107,7 @@ const GetAQuote = () => {
               </p>
             </div>
           </div>
-          <div className="w-full h-auto md:flex border border-gray-300 ">
+          <div className="w-full h-auto md:flex border border-gray-100 ">
             <div className="relative w-full h-[34vh] md:w-[200%]">
               <Image
                 src={loadingarm}

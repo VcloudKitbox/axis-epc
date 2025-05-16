@@ -4,14 +4,14 @@ import { FiShoppingCart } from 'react-icons/fi';
 import { FaHardHat } from 'react-icons/fa';
 import { MdBuild } from 'react-icons/md';
 import { FaTools } from 'react-icons/fa';
-import { MdOutlineEco, MdOutlineGppGood } from 'react-icons/md';
+import { MdOutlineEco } from 'react-icons/md';
 
 
 const Services = () => {
   return (
-    <div className="w-full h-full flex items-center justify-center flex-col  mt-10">
+    <div className="w-full h-full flex items-center justify-center flex-col  mt-10 bg-gray-100">
       <div className="w-full max-w-[1370px] h-full px-4">
-        <h1 className="text-3xl font-bold mb-7 md:text-3xl text-center">
+        <h1 className="text-3xl font-bold mt-17 mb-7 md:text-4xl text-center">
           Services
         </h1>
         <p className="text-[15px] pb-4 text-center">
@@ -20,7 +20,7 @@ const Services = () => {
         </p>
 
         <div className="w-full max-w-[1370px] h-full px-4 mt-10 mb-10 grid grid-cols-1 lg:grid-cols-3 gap-4 lg:w-full">
-          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white ">
+          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
             <div className="relative bg-gray-200 group-hover:bg-amber-300 transition-all duration-300 w-13 h-13 rounded-full left-15 top-7">
               <HiOutlineCog
                 size={60}
@@ -43,7 +43,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white ">
+          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
             <div className="relative bg-gray-200 group-hover:bg-amber-300 transition-all duration-300 w-13 h-13 rounded-full left-15 top-7">
               <FiShoppingCart
                 size={60}
@@ -66,7 +66,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white ">
+          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
             <div className="relative bg-gray-200 group-hover:bg-amber-300 transition-all duration-300 w-13 h-13 rounded-full left-15 top-7">
               <FaHardHat
                 size={60}
@@ -89,7 +89,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white ">
+          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
             <div className="relative bg-gray-200 group-hover:bg-amber-300 transition-all duration-300 w-13 h-13 rounded-full left-15 top-7">
               <MdBuild
                 size={60}
@@ -112,7 +112,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white ">
+          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
             <div className="relative bg-gray-200 group-hover:bg-amber-300 transition-all duration-300 w-13 h-13 rounded-full left-15 top-7">
               <FaTools
                 size={60}
@@ -135,7 +135,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white ">
+          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
             <div className="relative bg-gray-200 group-hover:bg-amber-300 transition-all duration-300 w-13 h-13 rounded-full left-15 top-7">
               <MdOutlineEco
                 size={60}
