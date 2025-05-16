@@ -2,6 +2,7 @@
 
 import GetAQuote from "@/components/GetAQuote";
 import Hero from "@/components/Hero";
+import Services from "@/components/Services";
 
 
 
@@ -11,7 +12,7 @@ export default function Home() {
     <div>
       <Hero />
       <GetAQuote />
-      
+      <Services />
     </div>
   );
 }

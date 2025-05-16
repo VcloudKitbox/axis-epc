@@ -36,7 +36,7 @@ const Hero = () => {
       {/* Overlay Text */}
       <div className="absolute top-0 left-0 w-full h-[100vh] bg-black/30 flex flex-col justify-center items-center text-white text-center px-4">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Welcome to</h1>
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">AxisEPC</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">Axis-EPC</h1>
         <p className="max-w-2xl text-lg mt-5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

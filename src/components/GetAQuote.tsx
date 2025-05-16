@@ -48,8 +48,8 @@ const GetAQuote = () => {
         </p>
 
         {/* Construction type */}
-        <div className="w-full max-w-[1370px] h-full px-4 mb-30 grid grid-cols-1 md:grid-cols-2 gap-2 place-items-center">
-          <div className="w-full h-auto md:flex border border-gray-500 ">
+        <div className="w-full max-w-[1370px] h-full px-4 mt-10 mb-10 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:w-full place-items-center">
+          <div className="w-full h-auto md:flex border border-gray-300 ">
             <div className="relative w-full h-[34vh] md:w-[200%]">
               <Image
                 src={portandharbor}
@@ -69,7 +69,7 @@ const GetAQuote = () => {
             </div>
           </div>
 
-          <div className="w-full h-auto md:flex border border-gray-500 ">
+          <div className="w-full h-auto md:flex border border-gray-300 ">
             <div className="relative w-full h-[34vh] md:w-[200%]">
               <Image
                 src={offshoreoil}
@@ -88,7 +88,7 @@ const GetAQuote = () => {
               </p>
             </div>
           </div>
-          <div className="w-full h-auto md:flex border border-gray-500 ">
+          <div className="w-full h-auto md:flex border border-gray-300 ">
             <div className="relative w-full h-[34vh] md:w-[200%]">
               <Image
                 src={marinebridges}
@@ -107,7 +107,7 @@ const GetAQuote = () => {
               </p>
             </div>
           </div>
-          <div className="w-full h-auto md:flex border border-gray-500 ">
+          <div className="w-full h-auto md:flex border border-gray-300 ">
             <div className="relative w-full h-[34vh] md:w-[200%]">
               <Image
                 src={loadingarm}
