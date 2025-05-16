@@ -3,8 +3,9 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
-import { Menu, X } from 'lucide-react'; // Small clean icons (optional)
-
+import { Menu, X } from 'lucide-react';
+import Image from 'next/image'; // ✅ Import Next.js Image component
+import { axisepc } from '../../public/index'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
@@ -20,8 +21,18 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
-        {/* Logo */}
-        <div className="text-2xl font-bold text-blue-900">Axis-EPC</div>
+        {/* ✅ Logo (Image) */}
+        <Link href="/">
+          <div className="relative w-56 h-20"> {/* Adjust width and height */}
+            <Image
+              src={axisepc} // ✅ Place logo in public/logo.png
+              alt="Axis-EPC Logo"
+              fill
+              className="object-contain"
+              priority
+            />
+          </div>
+        </Link>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-gray-600 font-medium text-sm uppercase">
