@@ -4,9 +4,9 @@ const Projects = () => {
   return (
     <div className="w-full h-full flex items-center justify-center flex-col  mt-10 bg-white">
       <h1 className="text-3xl font-bold mb-3 md:text-3xl text-center">
-        Constructions
+        Projects
       </h1>
-      <p className="text-[14px] pb-4 text-center">
+      <p className="text-[14px] pb-4 mb-4 text-center">
         Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
         consectetur velit
       </p>
