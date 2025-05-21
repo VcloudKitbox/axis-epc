@@ -4,7 +4,7 @@ import { FiArrowRightCircle } from "react-icons/fi";
 
 const Projects = () => {
   return (
-    <div className="w-full h-full flex items-center justify-center flex-col  mt-10 bg-white">
+    <div className="w-full h-full flex items-center justify-center flex-col  mt-10 pb-10 bg-white">
       <h1 className="text-3xl font-bold mb-3 md:text-3xl text-center">
         Projects
       </h1>
