@@ -32,7 +32,7 @@ const GetAQuote = () => {
           </p>
         </div>
 
-        <div className="w-[100%] h-full md:w-[80%] md:ml-20 lg:w-[50%] flex items-center flex-col pt-[80px]">
+        <div id="quote-form" className="w-[100%] h-full md:w-[80%] md:ml-20 lg:w-[50%] flex items-center flex-col pt-[80px]">
           <ContactForm />
         </div>
       </div>
@@ -42,6 +42,7 @@ const GetAQuote = () => {
         <h1 className="text-3xl font-bold mb-3 md:text-3xl text-center">
           Constructions
         </h1>
+        <div className="w-[10%] h-[.4vh] bg-amber-300 mx-auto mb-5"></div>
         <p className="text-[14px] pb-4 text-center">
           Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
           consectetur velit

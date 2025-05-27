@@ -21,7 +21,7 @@ const reasons = [
   {
     title: "Safety First",
     desc: "Strict adherence to international safety and quality standards.",
-    icon: <HiShieldCheck className="text-red-600 w-6 h-6" />,
+    icon: <HiShieldCheck className="text-red-600 w-6 h-6"/>,
   },
   {
     title: "Timely Delivery",

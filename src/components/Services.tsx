@@ -14,6 +14,7 @@ const Services = () => {
         <h1 className="text-3xl font-bold mt-17 mb-7 md:text-4xl text-center">
           Services
         </h1>
+        <div className="w-[10%] h-[.4vh] bg-amber-300 mx-auto mb-5"></div>
         <p className="text-[15px] pb-4 text-center">
           Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
           consectetur velit
