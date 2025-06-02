@@ -1,6 +1,5 @@
 // import Header from "@/components/Header";
 
-import Footer from "@/components/Footer";
 import GetAQuote from "@/components/GetAQuote";
 import GetNtouch from "@/components/GetNtouch";
 import Hero from "@/components/Hero";
@@ -22,7 +21,6 @@ export default function Home() {
       <Whyus />
       <CarouselSize />
       <GetNtouch />
-      <Footer />
     </div>
   );
 }

@@ -15,20 +15,15 @@ const GetAQuote = () => {
       <div className="w-full max-w-[1370px] h-full px-4 flex flex-col lg:flex-row mb-30">
         <div className="w-[100%] h-full md:w-[80%] md:ml-20 lg:w-[50%] flex flex-col px-7 pt-[150px]">
           <h1 className="text-3xl font-bold mb-7 md:text-3xl">
-            Minus hic non reiciendis ea possimus at quia.
+            Customized solutions tailored to your project’s unique scope and timeline.
           </h1>
           <div className="w-[20%] h-[.5vh] bg-amber-300 rounded-lg mb-7"></div>
           <p className="text-[14px] pb-4">
-            Rem id rerum. Debitis deserunt quidem delectus expedita ducimus
-            dolor. Aut iusto ipsa. Eos ipsum nobis ipsa soluta itaque
-            perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi
-            possimus ut delectus dicta.{" "}
+            From feasibility to final delivery, we simplify complex challenges with tailored EPC services. Our team is dedicated to precision, transparency, and support at every stage. Get in touch today for a quote that aligns with your project goals, budget, and execution timeline.
           </p>
 
           <p className="text-[14px]">
-            Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit
-            eligendi labore culpa eos. Deserunt porro magni qui necessitatibus
-            dolorem at animi cupiditate.
+            We prioritize your success with expertise you can count on. Every quote reflects our commitment to quality, safety, and reliability in marine engineering.
           </p>
         </div>
 
@@ -44,8 +39,7 @@ const GetAQuote = () => {
         </h1>
         <div className="w-[10%] h-[.4vh] bg-amber-300 mx-auto mb-5"></div>
         <p className="text-[14px] pb-4 text-center">
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
+          Building durable marine infrastructure with engineering precision and environmental care.
         </p>
 
         {/* Construction type */}
@@ -63,9 +57,7 @@ const GetAQuote = () => {
                 Port and Harbor Construction
               </h1>
               <p className="text-[14px] text-gray-500">
-                Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi
-                voluptatem placeat deleniti adipisci. Cum delectus doloribus non
-                veritatis. Officia temporibus illo magnam. Dolor eos et.
+                We specialize in building modern ports and harbors that support commercial shipping, fishing industries, and naval operations. Our services include dredging, quay wall installation, breakwater design, and dock construction — all built to endure harsh marine environments.
               </p>
             </div>
           </div>
@@ -83,9 +75,7 @@ const GetAQuote = () => {
                 Offshore Oil & Gas Facilities
               </h1>
               <p className="text-[14px] text-gray-500">
-                Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi
-                voluptatem placeat deleniti adipisci. Cum delectus doloribus non
-                veritatis. Officia temporibus illo magnam. Dolor eos et.
+                EPC provides full-scale solutions for offshore platforms, subsea pipelines, and support structures essential to oil and gas operations. We manage everything from design to commissioning with a focus on safety, corrosion resistance, and long-term performance in deepwater and shallow fields.
               </p>
             </div>
           </div>
@@ -102,9 +92,7 @@ const GetAQuote = () => {
                 Marine Bridges and Causeways
               </h1>
               <p className="text-[14px] text-gray-500">
-                Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi
-                voluptatem placeat deleniti adipisci. Cum delectus doloribus non
-                veritatis. Officia temporibus illo magnam. Dolor eos et.
+                Whether connecting islands or spanning challenging waterways, we construct durable marine bridges and causeways using advanced piling systems and erosion control. Our expertise ensures resilience against tides, currents, and climate stress.
               </p>
             </div>
           </div>
@@ -113,17 +101,15 @@ const GetAQuote = () => {
               <Image
                 src={loadingarm}
                 alt="Construction image"
-                className="w-full h-full"
+                className="w-100% h-full"
               />
             </div>
-            <div className="p-7 self-center items-center">
+            <div className="p-7 self-center items-center ">
               <h1 className="text-[20px] font-semibold">
                 LNG Terminals and Marine Loading Arms
               </h1>
               <p className="text-[14px] text-gray-500">
-                Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi
-                voluptatem placeat deleniti adipisci. Cum delectus doloribus non
-                veritatis. Officia temporibus illo magnam. Dolor eos et.
+                We design and construct LNG terminals equipped with precision marine loading arms for safe and efficient gas transfer. Our focus is on minimizing downtime, enhancing operational safety, and meeting international energy regulations.
               </p>
             </div>
           </div>

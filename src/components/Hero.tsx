@@ -38,10 +38,7 @@ const Hero = () => {
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Welcome to</h1>
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Axis-EPC</h1>
         <p className="max-w-2xl text-lg mt-5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          Delivering innovative marine engineering solutions with precision, safety, and efficiency — from concept to completion, we navigate complex challenges to build a sustainable maritime future.
         </p>
       </div>
     </div>

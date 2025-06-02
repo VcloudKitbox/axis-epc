@@ -10,8 +10,7 @@ const Projects = () => {
       </h1>
       <div className="w-[10%] h-[.4vh] bg-amber-300 mx-auto mb-5"></div>
       <p className="text-[14px] pb-4 mb-4 text-center">
-        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-        consectetur velit
+        Showcasing our commitment to quality through successfully delivered marine projects.
       </p>
       <div className="w-full max-w-[1370px] h-full px-4 grid grid-cols-1 lg:grid-cols-3 gap-4">
         <div className="group relative w-full h-[30vh] border border-gray-300 hover:scale-105 transition duration-300 bg-[url(/project1.jpg)] bg-no-repeat bg-center bg-cover cursor-pointer">

@@ -5,7 +5,7 @@ import { axisepc } from "../../public/index";
 
 const Footer = () => {
   return (
-    <div className="w-full h-full flex items-center justify-center flex-col  mt-10 bg-white">
+    <div className="w-full h-full flex items-center justify-center flex-col  mt-10 mb-7 bg-white">
       <div className="w-full max-w-[1370px] h-full px-4 grid grid-cols-1 lg:grid-cols-4 gap-4">
         <div>
           <Link href="/">

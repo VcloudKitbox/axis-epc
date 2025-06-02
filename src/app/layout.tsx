@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+// Global Components import
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Axies-EPC",
@@ -18,6 +20,7 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -16,8 +16,7 @@ const Services = () => {
         </h1>
         <div className="w-[10%] h-[.4vh] bg-amber-300 mx-auto mb-5"></div>
         <p className="text-[15px] pb-4 text-center">
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-          consectetur velit
+          Tailored marine solutions from design to delivery, built on expertise and reliability.
         </p>
 
         <div className="w-full max-w-[1370px] h-full px-4 mt-10 mb-10 grid grid-cols-1 lg:grid-cols-3 gap-4 lg:w-full">
@@ -37,9 +36,7 @@ const Services = () => {
               </h1>
 
               <p className="text-[14px] text-gray-500">
-                Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi
-                voluptatem placeat deleniti adipisci. Cum delectus doloribus non
-                veritatis. Officia temporibus illo magnam. Dolor eos et.
+                Crafting innovative designs backed by deep technical expertise. Our solutions are tailored, precise, and ready for complex marine environments.
               </p>
             </div>
           </div>
@@ -60,9 +57,7 @@ const Services = () => {
               </h1>
 
               <p className="text-[14px] text-gray-500">
-                Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi
-                voluptatem placeat deleniti adipisci. Cum delectus doloribus non
-                veritatis. Officia temporibus illo magnam. Dolor eos et.
+                We ensure timely sourcing of high-quality materials. Streamlined logistics meet strict compliance and project efficiency every step of the way.
               </p>
             </div>
           </div>
@@ -83,9 +78,7 @@ const Services = () => {
               </h1>
 
               <p className="text-[14px] text-gray-500">
-                Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi
-                voluptatem placeat deleniti adipisci. Cum delectus doloribus non
-                veritatis. Officia temporibus illo magnam. Dolor eos et.
+                Robust fabrication and construction executed with accuracy. We turn designs into durable marine assets that exceed expectations.
               </p>
             </div>
           </div>
@@ -106,9 +99,7 @@ const Services = () => {
               </h1>
 
               <p className="text-[14px] text-gray-500">
-                Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi
-                voluptatem placeat deleniti adipisci. Cum delectus doloribus non
-                veritatis. Officia temporibus illo magnam. Dolor eos et.
+                From site setup to final handover, our teams ensure smooth deployment and performance validation of all marine systems and structures.
               </p>
             </div>
           </div>
@@ -129,9 +120,7 @@ const Services = () => {
               </h1>
 
               <p className="text-[14px] text-gray-500">
-                Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi
-                voluptatem placeat deleniti adipisci. Cum delectus doloribus non
-                veritatis. Officia temporibus illo magnam. Dolor eos et.
+                Reliable upkeep and swift repair to maximize longevity. Our maintenance programs protect your investment and operational continuity.
               </p>
             </div>
           </div>
@@ -152,9 +141,7 @@ const Services = () => {
               </h1>
 
               <p className="text-[14px] text-gray-500">
-                Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi
-                voluptatem placeat deleniti adipisci. Cum delectus doloribus non
-                veritatis. Officia temporibus illo magnam. Dolor eos et.
+                Navigating marine regulations with care. We prioritize sustainable practices and ensure full compliance with local and global standards.
               </p>
             </div>
           </div>

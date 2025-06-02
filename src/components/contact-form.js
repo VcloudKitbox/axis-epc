@@ -15,8 +15,7 @@ function ContactForm() {
     >
       <h1 className="text-[18px] font-semibold">Get a quote</h1>
       <p className="text-[14px] mb-5">
-        Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam.
-        Rerum repellendus enim linead sero park flows.
+        Let’s bring your project to life with clarity and commitment. Submit your details and our team will reach out promptly.
       </p>
       {/* <label htmlFor="email">
         Email Address

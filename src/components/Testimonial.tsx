@@ -45,7 +45,7 @@ const testimonials = [
 
 export default function TestimonialCarousel() {
   return (
-    <div className="w-full flex flex-col items-center justify-center bg-gray-200 pt-7">
+    <div className="w-full flex flex-col items-center justify-center bg-gray-200 pt-7 pb-7">
       <h1 className="text-3xl font-bold mb-3 md:text-3xl text-center">
         Testimonials
       </h1>
