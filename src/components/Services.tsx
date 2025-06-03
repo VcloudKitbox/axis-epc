@@ -1,10 +1,12 @@
 import React from "react";
+import Link from "next/link";
 import { HiOutlineCog } from "react-icons/hi";
 import { FiShoppingCart } from 'react-icons/fi';
 import { FaHardHat } from 'react-icons/fa';
 import { MdBuild } from 'react-icons/md';
 import { FaTools } from 'react-icons/fa';
 import { MdOutlineEco } from 'react-icons/md';
+
 
 
 const Services = () => {
@@ -19,8 +21,8 @@ const Services = () => {
           Tailored marine solutions from design to delivery, built on expertise and reliability.
         </p>
 
-        <div className="w-full max-w-[1370px] h-full px-4 mt-10 mb-10 grid grid-cols-1 lg:grid-cols-3 gap-4 lg:w-full">
-          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
+        <div className="w-full max-w-[1370px] h-full px-4 pt-10 mb-10 grid grid-cols-1 lg:grid-cols-3 gap-4 lg:w-full">
+          <Link href="/engineering" className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
             <div className="relative bg-gray-200 group-hover:bg-amber-300 transition-all duration-300 w-13 h-13 rounded-full left-15 top-7">
               <HiOutlineCog
                 size={60}
@@ -39,9 +41,9 @@ const Services = () => {
                 Crafting innovative designs backed by deep technical expertise. Our solutions are tailored, precise, and ready for complex marine environments.
               </p>
             </div>
-          </div>
+          </Link>
 
-          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
+          <Link href="/procurement" className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
             <div className="relative bg-gray-200 group-hover:bg-amber-300 transition-all duration-300 w-13 h-13 rounded-full left-15 top-7">
               <FiShoppingCart
                 size={60}
@@ -60,9 +62,9 @@ const Services = () => {
                 We ensure timely sourcing of high-quality materials. Streamlined logistics meet strict compliance and project efficiency every step of the way.
               </p>
             </div>
-          </div>
+          </Link>
 
-          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
+          <Link href="/construction" className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
             <div className="relative bg-gray-200 group-hover:bg-amber-300 transition-all duration-300 w-13 h-13 rounded-full left-15 top-7">
               <FaHardHat
                 size={60}
@@ -81,9 +83,9 @@ const Services = () => {
                 Robust fabrication and construction executed with accuracy. We turn designs into durable marine assets that exceed expectations.
               </p>
             </div>
-          </div>
+          </Link>
 
-          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
+          <Link href="/installation" className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
             <div className="relative bg-gray-200 group-hover:bg-amber-300 transition-all duration-300 w-13 h-13 rounded-full left-15 top-7">
               <MdBuild
                 size={60}
@@ -102,9 +104,9 @@ const Services = () => {
                 From site setup to final handover, our teams ensure smooth deployment and performance validation of all marine systems and structures.
               </p>
             </div>
-          </div>
+          </Link>
 
-          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
+          <Link href="/maintenance" className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
             <div className="relative bg-gray-200 group-hover:bg-amber-300 transition-all duration-300 w-13 h-13 rounded-full left-15 top-7">
               <FaTools
                 size={60}
@@ -123,9 +125,9 @@ const Services = () => {
                 Reliable upkeep and swift repair to maximize longevity. Our maintenance programs protect your investment and operational continuity.
               </p>
             </div>
-          </div>
+          </Link>
 
-          <div className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
+          <Link href="/environmental" className="group w-full h-auto p-7 border border-gray-300 hover:bg-white bg-white cursor-pointer">
             <div className="relative bg-gray-200 group-hover:bg-amber-300 transition-all duration-300 w-13 h-13 rounded-full left-15 top-7">
               <MdOutlineEco
                 size={60}
@@ -144,7 +146,7 @@ const Services = () => {
                 Navigating marine regulations with care. We prioritize sustainable practices and ensure full compliance with local and global standards.
               </p>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </div>
