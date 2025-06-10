@@ -1,9 +1,14 @@
-import React from 'react'
+import ConDetails from "@/components/construction/ConDetails";
+import Hero7 from "@/components/construction/Hero7";
+import React from "react";
 
 const page = () => {
   return (
-    <div>page</div>
-  )
-}
+    <div>
+      <Hero7 />
+      <ConDetails />
+    </div>
+  );
+};
 
-export default page
+export default page;

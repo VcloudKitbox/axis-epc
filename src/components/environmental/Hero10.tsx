@@ -1,7 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 
-const page = () => {
+
+const Hero10 = () => {
   return (
     <div className="relative w-full h-[35vh] bg-[url(/project1.jpg)] bg-cover bg-center bg-no-repeat">
       {/* Overlay */}
@@ -9,17 +10,17 @@ const page = () => {
 
       {/* Content */}
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
-        <h1 className="text-4xl font-bold text-amber-300">Installation & Commissioning</h1>
+        <h1 className="text-4xl font-bold text-amber-300">Environmental & Regulatory Compliance</h1>
         <div className="text-white flex gap-2">
           <Link href="/" className="underline">
             Home
           </Link>
           <span>/</span>
-          <p>Installation & Commissioning</p>
+          <p>Environmental & Regulatory Compliance</p>
         </div>
       </div>
     </div>
   )
 }
 
-export default page
+export default Hero10

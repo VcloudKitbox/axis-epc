@@ -28,35 +28,35 @@ const Footer = () => {
         </div>
 
         {/* services */}
-        <div>
-          <h1>Services</h1>
-          <ul>
-            <li>Engineering Services</li>
-            <li>Procurement Services</li>
-            <li>Construction & Fabrication</li>
-            <li>Installation & Commissioning</li>
-            <li>Maintenance & Repair (EPCM/EPIC+)</li>
-            <li>Environmental & Regulatory Compliance</li>
+        <div className="group">
+          <h1 className="font-semibold text-[18px] mb-4">Services</h1>
+          <ul className="flex flex-col">
+            <Link href="/engineering">Engineering Services</Link>
+            <Link href="/procurement">Procurement Services</Link>
+            <Link href="/construction">Construction & Fabrication</Link>
+            <Link href="/installation">Installation & Commissioning</Link>
+            <Link href="/maintenance">Maintenance & Repair (EPCM/EPIC+)</Link>
+            <Link href="/environmental">Environmental & Regulatory Compliance</Link>
           </ul>
         </div>
 
         {/* Quick Link */}
         <div>
-          <h1>Quicl Links</h1>
-          <ul>
-            <li>Home</li>
-            <li>About-Us</li>
-            <li>Services</li>
-            <li>Contact Us</li>
+          <h1 className="font-semibold text-[18px] mb-4">Quicl Links</h1>
+          <ul className="flex flex-col">
+            <Link href="/">Home</Link>
+            <Link href="/about">About-Us</Link>
+            <Link href="/services">Services</Link>
+            <Link href="/contact">Contact Us</Link>
           </ul>
         </div>
 
         {/* Location */}
         <div>
-          <h1>Address</h1>
-          <p>Address</p>
-          <p>Tel-Number</p>
-          <p>Email</p>
+          <h1 className="font-semibold text-[18px] mb-4">Address</h1>
+          <p>10 Anuoluwapo Close off Opebi Road Ikeja Lagos.</p>
+          <p>+234 814 7024 765, +234 020 1634 0450.</p>
+          <p>info@axis-epc.com</p>
         </div>
       </div>
     </div>
