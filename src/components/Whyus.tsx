@@ -40,7 +40,7 @@ export default function WhyChooseUs() {
     <div className="w-full bg-white py-26">
       <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
         {/* Image */}
-        <div className="w-full h-[60vh] md:h-[100vh] bg-[url('/alt-services.jpg')] bg-cover bg-center shadow-lg" />
+        <div className="w-full h-[60vh] md:h-[70vh] bg-[url('/alt-services.jpg')] bg-cover bg-center shadow-lg" />
 
         {/* Text */}
         <div>
