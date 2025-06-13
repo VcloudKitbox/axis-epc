@@ -1,7 +1,6 @@
 "use clients";
 
 import React from "react";
-import ContactForm from "@/./components/contact-form";
 import Image from "next/image";
 import {portandharbor,
   offshoreoil,
@@ -13,23 +12,7 @@ const GetAQuote = () => {
     <div className="w-full h-full flex items-center justify-center flex-col bg-white">
       {/* Get a Quote */}
       <div className="w-full max-w-[1370px] h-full px-4 flex flex-col lg:flex-row mb-30">
-        <div className="w-[100%] h-full md:w-[80%] md:ml-20 lg:w-[50%] flex flex-col px-7 pt-[150px]">
-          <h1 className="text-3xl font-bold mb-7 md:text-3xl">
-            Customized solutions tailored to your project’s unique scope and timeline.
-          </h1>
-          <div className="w-[20%] h-[.5vh] bg-amber-300 rounded-lg mb-7"></div>
-          <p className="text-[14px] pb-4">
-            From feasibility to final delivery, we simplify complex challenges with tailored EPC services. Our team is dedicated to precision, transparency, and support at every stage. Get in touch today for a quote that aligns with your project goals, budget, and execution timeline.
-          </p>
-
-          <p className="text-[14px]">
-            We prioritize your success with expertise you can count on. Every quote reflects our commitment to quality, safety, and reliability in marine engineering.
-          </p>
-        </div>
-
-        <div id="quote-form" className="w-[100%] h-full md:w-[80%] md:ml-20 lg:w-[50%] flex items-center flex-col pt-[80px]">
-          <ContactForm />
-        </div>
+        
       </div>
 
       {/* Constructions */}
@@ -45,11 +28,11 @@ const GetAQuote = () => {
         {/* Construction type */}
         <div className="w-full max-w-[1370px] h-full px-4 mt-10 mb-10 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:w-full place-items-center">
           <div className="w-full h-auto md:flex border border-gray-100 ">
-            <div className="relative w-full h-[34vh] md:w-[200%]">
+            <div className="relative w-full h-[34vh] flex self-center items-center md:w-[200%] lg:w-[300%]">
               <Image
                 src={portandharbor}
                 alt="Construction image"
-                className="w-full h-full"
+                className="w-full lg:h-[25vh]"
               />
             </div>
             <div className="p-7 self-center items-center">
@@ -63,11 +46,11 @@ const GetAQuote = () => {
           </div>
 
           <div className="w-full h-auto md:flex border border-gray-100 ">
-            <div className="relative w-full h-[34vh] md:w-[200%]">
+            <div className="relative w-full h-[34vh] flex self-center items-center md:w-[200%] lg:w-[400%]">
               <Image
                 src={offshoreoil}
                 alt="Construction image"
-                className="w-full h-full"
+                className="w-full"
               />
             </div>
             <div className="p-7 self-center items-center">
@@ -80,11 +63,11 @@ const GetAQuote = () => {
             </div>
           </div>
           <div className="w-full h-auto md:flex border border-gray-100 ">
-            <div className="relative w-full h-[34vh] md:w-[200%]">
+            <div className="relative w-full h-[34vh] flex self-center items-center md:w-[200%] lg:w-[260%]">
               <Image
                 src={marinebridges}
                 alt="Construction image"
-                className="w-full h-full"
+                className="w-full"
               />
             </div>
             <div className="p-7 self-center items-center">
@@ -97,11 +80,11 @@ const GetAQuote = () => {
             </div>
           </div>
           <div className="w-full h-auto md:flex border border-gray-100 ">
-            <div className="relative w-full h-[34vh] md:w-[200%]">
+            <div className="relative w-full h-[34vh] flex self-center items-center md:w-[200%] lg:w-[340%]">
               <Image
                 src={loadingarm}
                 alt="Construction image"
-                className="w-100% h-full"
+                className="w-100%"
               />
             </div>
             <div className="p-7 self-center items-center ">
