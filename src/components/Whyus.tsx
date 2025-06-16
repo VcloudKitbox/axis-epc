@@ -92,20 +92,21 @@ export default function WhyChooseUs() {
         </motion.div>
       </div>
       {/* Bottom Image */}
-        <motion.div
-          className="w-[100%] mt-16"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-        >
-          <Image
-            src="/btm_slide.png"
-            alt="Bottom Decoration"
-            width={500} height={300}
-            className="w-full max-h-[150px] object-contain "
-          />
-        </motion.div>
+      <motion.div
+        className="w-[100%] mt-16"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+      >
+        <Image
+          src="/btm_slide.png"
+          alt="Bottom Decoration"
+          width={500}
+          height={300}
+          className="object-contain"
+        />
+      </motion.div>
     </motion.div>
   );
 }
