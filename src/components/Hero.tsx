@@ -35,9 +35,9 @@ const Hero = () => {
 
       {/* Overlay Text */}
       <div className="absolute top-0 left-0 w-full h-[100vh] bg-black/30 flex flex-col justify-center items-center text-white text-center px-4">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">Welcome to</h1>
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">Axis-EPC</h1>
-        <p className="max-w-2xl text-lg mt-5">
+        <h1 className="text-4xl lg:text-[56px] md:text-5xl font-bold mb-4">Welcome to Axis-EPC</h1>
+        {/* <h1 className="text-4xl md:text-5xl font-bold mb-4">Axis-EPC</h1> */}
+        <p className="max-w-2xl text-[18px] mt-5">
           Delivering innovative marine engineering solutions with precision, safety, and efficiency — from concept to completion, we navigate complex challenges to build a sustainable maritime future.
         </p>
       </div>

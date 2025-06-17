@@ -102,9 +102,9 @@ export default function WhyChooseUs() {
         <Image
           src="/btm_slide.png"
           alt="Bottom Decoration"
-          width={500}
+          width={1650}
           height={300}
-          className="object-contain"
+          className="pl-6 object-contain"
         />
       </motion.div>
     </motion.div>
