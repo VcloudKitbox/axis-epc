@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Hero5 = () => {
   return (
-    <div className="relative w-full h-[35vh] bg-[url(/project1.jpg)] bg-cover bg-center bg-no-repeat">
+    <div className="relative w-full h-[35vh] bg-[url(/oilvessel.jpeg)] bg-cover bg-center bg-no-repeat">
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-50 z-0" />
 

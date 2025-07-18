@@ -16,7 +16,7 @@ import { fadeInUp } from "@/utils/animations"; // Make sure this is in your util
 
 const testimonials = [
   {
-    name: "Jane Doe",
+    name: "Ava Roberto",
     position: "Project Manager, OmegaBuild Ltd",
     message:
       "Axis EPC delivered our offshore project on time with exceptional professionalism. Truly dependable!",
